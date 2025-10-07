@@ -87,21 +87,23 @@ main{
 main h2{
     font-size : 1.5 rem;
     padding: 1%;
-    
+}
+main p{
+    font-size : 1 rem;
+    padding: 1%;
 }
 .Pac-Man{
-    width : 100px;
-    height : 100px;
-    margin : auto;
     display : block;
 }
 footer{
     text-align : center;
-    background-color : #8b9fac;
+    padding-top : 2%;
+    background-color : #1f1922;
     color : #ffffff;
     position : fixed;
     bottom : 0;
     width : 100%;
+    height: 10%;
 }
 @media (max-width : 800px){
     .hideOnMobile{
